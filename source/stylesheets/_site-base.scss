@@ -118,6 +118,11 @@
 
 #relationships {
 	background-color: $cool-grey-10;
+
+	.padded {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 }
 
 .preview {
