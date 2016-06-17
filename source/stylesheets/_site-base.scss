@@ -129,6 +129,11 @@
 	}
 }
 
+.padded.extra-vertical {
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
+
 .preview {
 	padding: 60px 0 60px 0;
 	position: relative;
@@ -136,17 +141,18 @@
 	p {
 		padding-top: 20px;
 	}
+}
 
-	a.button {
-		background-color: $cool-grey-80;
-		color: $white;
-		padding: 10px 30px 10px 30px;
-		margin-top: 30px;
-		display: inline-block;
-	}
-	a.button:hover {
-		background-color: $cool-grey-70;
-	}
+a.button {
+	background-color: $cool-grey-80;
+	color: $white;
+	padding: 10px 30px 10px 30px;
+	margin-top: 30px;
+	display: inline-block;
+	text-decoration: none;
+}
+a.button:hover {
+	background-color: $cool-grey-70;
 }
 
 .dark {
