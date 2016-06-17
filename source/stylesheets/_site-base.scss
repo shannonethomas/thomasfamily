@@ -117,7 +117,11 @@
 }
 
 #relationships {
-	background-color: $cool-grey-10;
+	background-color: $cool-grey-90;
+
+	p, a {
+		color: $cool-grey-10;
+	}
 
 	.padded {
 		padding-top: 20px;
