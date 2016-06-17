@@ -124,8 +124,8 @@
 	}
 
 	.padded {
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding-top: 32px;
+		padding-bottom: 24px;
 	}
 }
 
@@ -141,13 +141,17 @@
 	}
 }
 
-.padded.extra-bottom {
+#our-stories {
+	background-color: $cool-grey-10;
+	padding: 40px 0 40px 0;
+}
+
+.extra-bottom {
 	padding-bottom: 32px;
 }
 
-.padded.extra-vertical {
+.extra-top {
 	padding-top: 32px;
-	padding-bottom: 24px;
 }
 
 .preview {
@@ -157,6 +161,10 @@
 	p {
 		padding-top: 20px;
 	}
+}
+
+.full-video {
+	width: 100%;
 }
 
 a.button {
