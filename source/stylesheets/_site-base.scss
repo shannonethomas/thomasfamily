@@ -129,6 +129,22 @@
 	}
 }
 
+#stories {
+	background-color: $cool-grey-10;
+	padding: 40px 0 40px 0;
+
+	.card {
+		margin: 4px;
+		background-color: $white;
+		padding-bottom: 30px;
+		text-align: center;
+	}
+}
+
+.padded.extra-bottom {
+	padding-bottom: 32px;
+}
+
 .padded.extra-vertical {
 	padding-top: 32px;
 	padding-bottom: 24px;
