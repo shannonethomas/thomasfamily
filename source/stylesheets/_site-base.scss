@@ -115,6 +115,14 @@
 // content
 #content {
 	background-color: $white;
+	margin-bottom: 80px;
+}
+
+.index {
+	background-color: $cool-grey-90;
+	#content {
+		background-color: $cool-grey-90;
+	}
 }
 
 #profile {
