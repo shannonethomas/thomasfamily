@@ -8,8 +8,8 @@ layout: navigation_layout
 	<div class="bleed" style="background-image: url('/images/lois-thomas/hero.jpg'); height: 600px;">
 		<div class="overlay">
 			<div class="flex container preview">
-				<div class="col-8">
-					<div class="centered padded">
+				<div class="col-12">
+					<div class="padded">
 						<h1>Lois Jean (Votruba) Thomas</h1>
 						<h2>December 22, 1928</h2>
 					</div>
@@ -19,18 +19,86 @@ layout: navigation_layout
 	</div>
 
 	<%# make this smart %>
-	<div id="relationships" class="bleed">
+	<%# make this smart %>
+	<div id="profile" class="bleed">
 		<div class="flex container">
-			<div class="col-8 left-2 right-2">
-				<div class="centered padded">
-					<p>Wife of <a href="frank-thomas">Frank</a>. Mother of <a href="maureen-thomas-murphy">Maureen</a>, <a href="joan-lame">Joan</a>, <a href="barbara-seago">Barb</a>, <a href="mary-watkins">Mary</a>, <a href="dorothy-hunter">Dorothy</a>, <a href="joe-thomas">Joe</a>, and <a href="theresa-goebel">Theresa</a>.</p>
+			<div class="col-6 right-6">
+				<div class="parents">
+					<div class="label">
+						<div class="padded">
+							<p>Parents</p>
+						</div>
+					</div>
+					<div class="data">
+						<div class="padded">
+							<ul>
+								<li>Johanna Groeninger</li>
+								<li>Aloys Votruba</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="spouse">
+					<div class="label">
+						<div class="padded">
+							<p>Spouse</p>
+						</div>
+					</div>
+					<div class="data">
+						<div class="padded">
+							<ul>
+								<li><a href="/frank-thomas/">Francis Joseph Thomas</a></li>
+								<li>April 11, 1959</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="children">
+					<div class="label">
+						<div class="padded">
+							<p>Children</p>
+						</div>
+					</div>
+					<div class="data">
+						<div class="padded">
+							<ul>
+								<li>Maureen Thomas-Murphy</li>
+								<li>Joan Marie Thomas Lame</li>
+								<li>Barbara (Thomas) Seago</li>
+								<li>Mary (Thomas) Watkins</li>
+								<li>Dorothy (Thomas) Hunter</li>
+								<li>Joseph Thomas</li>
+								<li>Theresa (Thomas) Goebel</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<%# custom content %>
-	<div class="flex container">
+	<%# photos %>
+	<div id="photo-album">
+		<div class="container packery">
+
+			<div class="col-4 packed">
+				<div class="card">
+					<img src="/images/lois-thomas/01.jpg">
+				</div>
+			</div>
+
+			<div class="col-4 packed">
+				<div class="card">
+					<img src="/images/lois-thomas/02.jpg">
+				</div>
+			</div>
+
+			<div class="col-4 packed">
+				<div class="card">
+					<img src="/images/lois-thomas/03.jpg">
+				</div>
+			</div>
+		</div>
 	</div>
 
 </section>
