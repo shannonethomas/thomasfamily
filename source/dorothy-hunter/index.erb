@@ -8,8 +8,8 @@ layout: navigation_layout
 	<div class="bleed" style="background-image: url('/images/dorothy-hunter/hero.jpg'); height: 600px;">
 		<div class="overlay">
 			<div class="flex container preview">
-				<div class="col-8">
-					<div class="centered padded">
+				<div class="col-12">
+					<div class="padded">
 						<h1>Dorothy Hunter</h1>
 					</div>
 				</div>
@@ -20,20 +20,88 @@ layout: navigation_layout
 	<%# make this smart %>
 	<div id="profile" class="bleed">
 		<div class="flex container">
-			<div class="col-8 left-2 right-2">
-				<div class="centered padded">
-					<p>Mother of <a href="erica-wade">Erica</a>, <a href="caleb-stombaugh">Caleb</a>, <a href="david-stombaugh">David</a>, and <a href="jenna-stombaugh">Jenna</a>. Daughter of <a href="francis-thomas">Frank</a> and <a href="lois-thomas">Lois</a>.</p>
+			<div class="col-6">
+				<div class="parents">
+					<div class="label">
+						<div class="padded">
+							<p>Parents</p>
+						</div>
+					</div>
+					<div class="data">
+						<div class="padded">
+							<ul>
+								<li>Francis Joseph Thomas</li>
+								<li>Lois Jean (Votruba) Thomas</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="child">
+					<div class="label">
+						<div class="padded">
+							<p>Children</p>
+						</div>
+					</div>
+					<div class="data">
+						<div class="padded">
+							<ul>
+								<li>Erica (Stombaugh) Wade</li>
+								<li>Caleb Stombaugh</li>
+								<li>David Stombaugh</li>
+								<li>Jenna Stombaugh</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-6">
+				<div class="location">
+					<div class="label">
+						<div class="padded">
+							<p>Location</p>
+						</div>
+					</div>
+					<div class="data">
+						<div class="padded">
+							<ul>
+								<li>St. Louis, Missouri, USA</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<%# custom content %>
-	<div class="flex container">
-		<div class="col-8 left-2 right-2">
-			<div class="padded">
-				<img src="/images/dorothy-hunter/01.jpg" alt="Dorothy and Frank">
+	<%# images %>
+	<div id="photo-album">
+		<div class="container packery">
+
+			<div class="col-4 packed">
+				<div class="card">
+					<img src="/images/dorothy-hunter/01.jpg">
+				</div>
 			</div>
+
+			<div class="col-4 packed">
+				<div class="card">
+					<img src="/images/dorothy-hunter/02.jpg">
+				</div>
+			</div>
+
+			<div class="col-4 packed">
+				<div class="card">
+					<img src="/images/dorothy-hunter/03.jpg">
+				</div>
+			</div>
+
+			<div class="col-4 packed">
+				<div class="card">
+					<img src="/images/dorothy-hunter/04.jpg">
+				</div>
+			</div>
+
 		</div>
 	</div>
 
